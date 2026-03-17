@@ -87,15 +87,11 @@ cd AgendApp
 # 2. Instalar dependencias
 npm install --legacy-peer-deps
 
-# 3. Configurar variables de entorno
-cp .env.example .env
-# Editar .env con la URL del webhook de n8n y demás configuraciones
-
-# 4. Iniciar el servidor de desarrollo
+# 3. Iniciar el servidor de desarrollo
 npm run dev
 ```
 
-La aplicación estará disponible en `http://localhost:5173`
+La aplicación estará disponible en `http://localhost:8080`
 
 
 ---
