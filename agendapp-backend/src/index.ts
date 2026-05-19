@@ -13,6 +13,7 @@ const server = http.createServer(app);
 
 server.listen(config.port, () => {
   logger.info(`[Server] AgendApp backend corriendo en http://localhost:${config.port}`);
+  
   logger.info(`[Server] CORS permitido desde: ${config.frontend.url}`);
 });
 
